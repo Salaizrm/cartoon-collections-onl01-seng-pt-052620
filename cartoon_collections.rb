@@ -1,4 +1,6 @@
+require 'pry'
 def roll_call_dwarves(array)
+  binding.pry
   array.each_with_index do |dwarve|
     puts dwarve
   end
