@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)
   array.map do |element|
-    element.split(", ")
+    element.upcase
   end
   array
 end
