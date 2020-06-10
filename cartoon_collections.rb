@@ -9,7 +9,7 @@ def summon_captain_planet(array)
   array.map do |element|
     element.split(", ")
   end
-  array.join("!")
+  array
 end
 
 def long_planeteer_calls# code an argument here
